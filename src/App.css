@@ -1,0 +1,166 @@
+@font-face{
+  font-family: headfont;
+  src: url(components/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+ @font-face{
+  font-family: buttonfont;
+  src: url(components/fonts/Montserrat/Montserrat-Light.ttf)
+}
+@font-face{
+  font-family: messagefont;
+  src: url(components/fonts/Montserrat/Montserrat-Medium.ttf)
+}
+@font-face{
+  font-family: conversionfont;
+  src: url(components/fonts/Montserrat/Montserrat-Regular.ttf)
+}
+@font-face{
+  font-family: navfont;
+  src: url(components/fonts/Montserrat/Montserrat-Thin.ttf)
+}
+.font_all
+{
+  font-family: conversionfont;
+  color: #ECF1FB;
+  font-size: 100%;
+  
+}
+.nav
+{
+  margin-right: 10%;
+  padding: 4%;
+}
+.maxeon_nav
+{
+  font-family: headfont ;
+  font-size: 30px;
+}
+ 
+.line
+{ margin-left: 15%; 
+  font-family: headfont;
+  color: #ECF1FB;
+  font-weight: bolder;
+  
+}
+
+.bg-img {
+  /* The image used */
+
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button1
+{
+  background-color:white;
+ 
+  position: absolute;
+  border-radius: 25px 25px 0 25px;
+}
+
+.showbox{
+  position: relative;
+  height: 350px;
+  width: 300px;
+  display: block;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: -375px;
+  margin-right: 40px;
+ 
+}
+
+.hidebox{
+  display: none
+}
+
+.title1
+{
+  font-size: 15px;
+  font-family: conversionfont;
+  background-color: #7F8AC5;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 30%;
+  width: 90%;
+  border-radius: 5px 5px 5px 5px;
+  color: #ECF1FB;
+}
+.send_button
+{
+  font-family: conversionfont;
+  background-color: #13A884;
+  border-radius: 20px 20px 20px 20px ;
+  margin-top: 150px;
+  color: #ECF1FB;
+  margin-left: 50px;
+}
+.sender
+{
+font-family: buttonfont;
+height: auto;
+max-width: 60%;
+width: auto;
+background-color: #4C5AA1;
+margin-top: 3px;
+margin-bottom: 3px;
+border-radius: 5px 5px 5px 5px ;
+color: white;
+}
+.reciever
+{
+  height: auto;
+  max-width:  60%;
+  width: auto;
+  background-color: #ECF1FB;
+  margin-top: 3px;
+margin-bottom: 3px;
+border-radius: 5px 5px 5px 5px ;
+color: black;
+}
+.text
+{
+  width: 80%;
+  margin: none;
+  position: absolute;
+  display: flex;
+  border: none;
+  border-bottom: 2px solid #4C5AA1;
+  outline: none;
+  
+}
+.in_button
+{
+  background-color: #ECF1FB;
+  color: #7F8AC5;
+  size: 8px;
+  position: absolute;
+  border: none;
+  border-radius: 5px 5px 5px 5px ;
+  width: 20%;
+}
+.centre_div
+{
+  height: 180px;
+  width: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.bottom_div{
+  width: 90%;
+  margin-left: 15px;
+  margin-right: auto;
+
+}
